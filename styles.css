@@ -110,8 +110,13 @@ h5{
 
 .center{
     text-align: center;
-    align: center;
+   align: center;
 
+}
+
+.partial{
+
+    width: 60vw;
 }
 
 .big{
