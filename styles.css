@@ -25,6 +25,52 @@ body {
     border: 2px solid black;
   }
 
+  
+h1 {
+    font-family: 'Lexend Exa';
+    font-size: 4rem;
+    
+    }
+    
+    h3 {
+        color: #e57cf3;	
+        font-family: "Lexend Exa";
+        font-weight: 200;
+        text-transform: uppercase;
+        font-size: 3rem;
+        position:relative;
+        
+        
+        }
+    
+    h4{
+            color: rgb(255, 115, 0);
+            font-family: 'Lexend Exa', sans-serif;
+        
+            }
+    
+    
+    h5{
+        color: rgb(255, 115, 0);
+        font-family: 'Space Mono', monospace;
+        position:relative;
+    }
+    
+    h6{
+        color: rgb(0, 168, 224);
+        font-family: 'Space Mono', monospace;
+    
+        }
+
+
+.hide {
+            display: none;
+          }
+              
+.hoverdiv:hover .hide {
+            display: block;
+          }
+
 .portfolio{
     width:50vw;
     height:auto;
@@ -32,7 +78,7 @@ body {
 }
 .topnav {
     overflow: hidden;
-    font-family: 'Poppins';
+    font-family: 'Lexend Exa';
     font-weight: 200;
     text-transform: uppercase;
   }
@@ -56,30 +102,17 @@ body {
     color: white;
 }
 
-h1 {
-font-family: 'Poppins';
-font-size: 4rem;
 
-}
-
-h3 {
-    color: #e57cf3;	
-    font-family: "Poppins";
-    font-weight: 200;
-    text-transform: uppercase;
-    font-size: 3rem;
-    position:relative;
+.inline{ 
     
-    
-    }
+    display: inline-block;}
 
-
-h5{
-    color: yellow;
-    font-family: 'Space Mono', monospace;
-    position:relative;
+.right{
+    float: right;
 }
-
+.main-logo{
+    width: 40vw;
+}
 .mono{
     font-family: 'Space Mono', monospace;
 
@@ -111,6 +144,7 @@ h5{
 .center{
     text-align: center;
    align: center;
+   
 
 }
 
@@ -126,7 +160,7 @@ h5{
     line-height: 1;
 }
 .huge{
-    font-family: "Poppins";
+    font-family: "Lexend Exa";
     font-size: 5rem;
     text-align: left;
     position:relative;
@@ -178,6 +212,18 @@ color: #f3e77c;
 .box{
    
     background-color: rgba(255,115,0,1);
+    padding: 1px;
+    border-radius: 4px;
+    font-weight: 900;
+   
+
+}
+
+.darkbox{
+   
+    background-color: rgb(32, 32, 32);
+    margin: auto;
+    width: 300px;
     padding: 1px;
     border-radius: 4px;
     font-weight: 900;
