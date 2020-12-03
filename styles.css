@@ -1,0 +1,279 @@
+body {
+    background-color:#303030	 ;
+    overflow-x: hidden; 
+  }
+  a {
+    color: black;
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(255, 115, 0);
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 900;
+    margin: 20px;
+
+  }
+  a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+.portfolio{
+    width:50vw;
+    height:auto;
+    margin: 10px;
+}
+.topnav {
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #e57cf3;
+    color: white;
+}
+
+h1 {
+font-family: 'Poppins';
+font-size: 4rem;
+
+}
+
+h3 {
+    color: #e57cf3;	
+    font-family: "Poppins";
+    font-size: 3rem;
+    position:relative;
+    
+    
+    }
+
+
+h5{
+    color: yellow;
+    font-family: 'Space Mono', monospace;
+    position:relative;
+}
+
+.mono{
+    font-family: 'Space Mono', monospace;
+
+}
+
+.border{
+    border-style: solid;
+    border-width: 25px;
+}
+
+.exlight{
+    font-weight: 100;
+    }
+    
+.light{
+        font-weight: 200;
+        }
+    
+.medium{
+        font-weight: 500;
+    }
+    
+.bold{
+        font-weight: 900;
+        }
+
+
+
+.center{
+    align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.big{
+
+    font-size: 2rem;
+    color: rgb(44, 204, 44);
+    line-height: 1;
+}
+.huge{
+    font-family: "Poppins";
+    font-size: 5rem;
+    text-align: left;
+    position:relative;
+    margin-top: 200px;
+    line-height: 0;
+
+}
+
+.yellow{
+color: #f3e77c;	
+
+}
+
+.white{
+    color: white;
+}
+
+.green{
+    color: chartreuse
+}
+
+.red{
+
+    color: rgb(255, 60, 0)
+}
+
+.purple{
+    color:#e57cf3;
+}
+
+.orange{
+    color: rgb(255, 115, 0);
+}
+
+
+.giant{
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+.logo{
+    line-height: 0.1;
+}
+
+.push{
+    padding-left: 50px;
+
+}
+
+.box{
+   
+    background-color: rgba(255,115,0,1);
+    padding: 1px;
+    border-radius: 4px;
+    font-weight: 900;
+   
+
+}
+
+.buttonpad{
+    padding: 10px;
+    margin: 10px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+
+  }
+    .one {
+        
+    }
+    .two { 
+        
+
+    }
+    .three {
+        
+
+    }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .huge{
+        font-size: 4rem;
+
+    
+    }
+
+    .giant{
+
+        font-size: 6rem;
+    }
+
+    h1 {
+       
+        font-size: 3rem;
+    }
+    h3 {
+        
+        font-size: 2.25rem;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+
+        .huge{
+            font-size: 2rem;
+    
+        
+        }
+    
+        .giant{
+    
+            font-size: 4rem;
+        }
+        h1 {
+       
+            font-size: 2rem;
+        }
+
+        h3{
+
+            font-size: 1.5rem;
+        }
+        }
+
+@media only screen and (max-width: 500px) {
+
+    .huge{
+        font-size: 1.5rem;
+        
+            
+            }
+        
+    .giant{
+        
+        font-size: 3rem;
+            }
+    h1 {
+           
+        font-size: 1.5rem;
+            }
+    
+    h3{
+    
+        font-size: 1rem;
+            }
+            }
