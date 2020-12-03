@@ -1,16 +1,16 @@
 body {
     background-color:#303030	 ;
     overflow-x: hidden; 
-   font-family: "Lexend Exa", sans-serif;
-  }
+    font-family: "Lexend Deca", sans-serif;
+}
 
   p {
-    font-family: "Lexend Exa", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     color:  rgb(255, 115, 0);
   }
   a {
     color: black;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     padding: 10px;
     border-radius: 4px;
     font-weight: 900;
@@ -37,7 +37,7 @@ body {
 
   
 h1 {
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: "Lexend Deca", sans-serif;
     font-size: 4rem;
     
     }
@@ -47,18 +47,17 @@ h1 {
         color: rgb(255, 115, 0);
         font-family: "Lexend Exa", sans-serif;
         text-transform: uppercase;
-        padding: 5px;
-        margin: 20px;
+        padding: 15px;
+        margin: 30px;
         font-size: 4rem;
         line-height: 1;}
     
     h3 {
-        color: #e57cf3;	
-        font-family: 'Space Mono', monospace;
-        text-indent: 10vw;
+        color:rgb(224, 224, 224);	
+        font-family: "Lexend Deca", sans-serif;
+        text-indent: 13vw;
         font-weight: 200;
         font-size: 2rem;
-        position:relative;
         text-align: left;
         
         
@@ -68,7 +67,7 @@ h1 {
     
     h4{
             color: rgb(255, 115, 0);
-            font-family: 'Lexend Exa', sans-serif;
+            font-family: "Lexend Deca", sans-serif;
         
             }
     
@@ -79,13 +78,13 @@ h1 {
     h6{
         color: rgb(0, 168, 224);
         font-size: 2rem;
-        font-family: 'Space Mono', monospace;
+        font-family: "Lexend Deca", sans-serif;
     
         }
 
 .linkbutton{color: black;
-            font-family: 'Lexend Exa', sans-serif;
-            display: inline-block;
+    font-family: "Lexend Deca", sans-serif;
+    display: inline-block;
             width: 300px;
             background-color:  rgb(255, 115, 0);
             padding: 10px;
@@ -128,7 +127,7 @@ h1 {
 }
 .topnav {
     overflow: hidden;
-    font-family: 'Lexend Exa';
+    font-family: "Lexend Deca", sans-serif;
     font-weight: 200;
     text-transform: uppercase;
   }
@@ -164,7 +163,7 @@ h1 {
     width: 40vw;
 }
 .mono{
-    font-family: 'Space Mono', monospace;
+        font-family: "Lexend Deca", sans-serif;
 
 }
 
@@ -209,7 +208,7 @@ h1 {
     line-height: 1;
 }
 .huge{
-    font-family: "Lexend Exa";
+    font-family: "Lexend Deca", sans-serif;
     font-size: 5rem;
     text-align: left;
     position:relative;
