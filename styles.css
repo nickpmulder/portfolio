@@ -1,15 +1,22 @@
 body {
     background-color:#303030	 ;
     overflow-x: hidden; 
+   font-family: "Lexend Exa", sans-serif;
+  }
+
+  p {
+    font-family: "Lexend Exa", sans-serif;
+    color:  rgb(255, 115, 0);
   }
   a {
     color: black;
-    font-family: 'Space Mono', monospace;
-    background-color: rgb(255, 115, 0);
+    font-family: 'Lexend Exa', sans-serif;
     padding: 10px;
     border-radius: 4px;
     font-weight: 900;
     margin: 20px;
+    transition: 0.3s;
+
 
   }
   a:link {
@@ -18,7 +25,10 @@ body {
 
   a:hover {
     color: white;
+    transition: 0.3s;
+
   }
+
 
   hr{
 
@@ -27,21 +37,34 @@ body {
 
   
 h1 {
-    font-family: 'Lexend Exa';
+    font-family: 'Lexend Exa', sans-serif;
     font-size: 4rem;
     
     }
+
+    
+    h2{
+        color: rgb(255, 115, 0);
+        font-family: "Lexend Exa", sans-serif;
+        text-transform: uppercase;
+        padding: 5px;
+        margin: 20px;
+        font-size: 4rem;
+        line-height: 1;}
     
     h3 {
         color: #e57cf3;	
-        font-family: "Lexend Exa";
+        font-family: 'Space Mono', monospace;
+        text-indent: 10vw;
         font-weight: 200;
-        text-transform: uppercase;
-        font-size: 3rem;
+        font-size: 2rem;
         position:relative;
+        text-align: left;
+        
         
         
         }
+
     
     h4{
             color: rgb(255, 115, 0);
@@ -50,31 +73,58 @@ h1 {
             }
     
     
-    h5{
-        color: rgb(255, 115, 0);
-        font-family: 'Space Mono', monospace;
-        position:relative;
-    }
+   
+    
     
     h6{
         color: rgb(0, 168, 224);
+        font-size: 2rem;
         font-family: 'Space Mono', monospace;
     
         }
 
+.linkbutton{color: black;
+            font-family: 'Lexend Exa', sans-serif;
+            display: inline-block;
+            width: 200px;
+            background-color:  rgb(255, 115, 0);
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: 900;
+            margin: 20px;
+            transition: 0.3s;}
 
+.portfoliobox{
+
+    width: 75vw;
+    background-color: #5a5a5a;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+
+}
 .hide {
             display: none;
+
           }
               
 .hoverdiv:hover .hide {
-            display: block;
+            display: inline-block;
+
           }
 
 .portfolio{
     width:50vw;
     height:auto;
     margin: 10px;
+    transition: 0.3s;
+
+}
+
+.portfolio:hover{
+    width: 65vw;
+    transition: 0.5s;
+
 }
 .topnav {
     overflow: hidden;
@@ -143,7 +193,6 @@ h1 {
 
 .center{
     text-align: center;
-   align: center;
    
 
 }
@@ -222,9 +271,8 @@ color: #f3e77c;
 .darkbox{
    
     background-color: rgb(32, 32, 32);
-    margin: auto;
-    width: 300px;
-    padding: 1px;
+    text-align: center;
+    padding: 10px;
     border-radius: 4px;
     font-weight: 900;
    
@@ -281,7 +329,10 @@ color: #f3e77c;
     h1 {
        
         font-size: 3rem;
+
     }
+
+
     h3 {
         
         font-size: 2.25rem;
@@ -306,6 +357,12 @@ color: #f3e77c;
             font-size: 2rem;
         }
 
+
+        h2 {
+       
+            font-size: 2rem;
+        }
+
         h3{
 
             font-size: 1.5rem;
@@ -324,7 +381,7 @@ color: #f3e77c;
         
         font-size: 3rem;
             }
-    h1 {
+    h2 {
            
         font-size: 1.5rem;
             }
