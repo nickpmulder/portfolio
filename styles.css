@@ -47,6 +47,7 @@ h1 {
     h2{
         color: rgb(255, 115, 0);
         font-family: "Lexend Exa", sans-serif;
+        text-align: center;
         text-transform: uppercase;
         padding: 15px;
         margin: 30px;
@@ -100,6 +101,7 @@ h1 {
     width: 75vw;
     background-color: #5a5a5a;
     margin: auto;
+    margin-top: 200px;
     margin-bottom: 50px;
     padding-bottom: 100px;
     border-radius: 20px;
@@ -345,16 +347,7 @@ color: #f3e77c;
 
 @media only screen and (max-width: 800px) {
 
-        .huge{
-            font-size: 2rem;
-    
-        
-        }
-    
-        .giant{
-    
-            font-size: 4rem;
-        }
+     
         h1 {
        
             font-size: 2rem;
@@ -374,7 +367,11 @@ color: #f3e77c;
 
 @media only screen and (max-width: 600px) {
 
- 
+    .portfoliobox{
+
+     margin-top: 20px;
+        padding-bottom: 5px;
+    }
 
 
     .main-logo{
@@ -383,7 +380,7 @@ color: #f3e77c;
             }
     h2 {
            
-        font-size: 1.5rem;
+        font-size: 1rem;
             }
     
     h3{
