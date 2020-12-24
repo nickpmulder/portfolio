@@ -6,7 +6,7 @@ body {
 
   p {
     font-family: "Lexend Deca", sans-serif;
-    color:  rgb(255, 115, 0);
+    color:  rgb(216, 184, 0);
 
   }
   a {
@@ -45,7 +45,7 @@ h1 {
 
     
     h2{
-        color: rgb(255, 115, 0);
+        color:rgb(216, 184, 0);
         font-family: "Lexend Exa", sans-serif;
         text-align: center;
         text-transform: uppercase;
@@ -69,7 +69,7 @@ h1 {
 
     
     h4{
-            color: rgb(255, 115, 0);
+            color: rgb(216, 184, 0);
             font-family: "Lexend Deca", sans-serif;
             line-height: 5px;
           
@@ -90,7 +90,7 @@ h1 {
     font-family: "Lexend Deca", sans-serif;
     display: inline-block;
             width: 300px;
-            background-color:  rgb(255, 115, 0);
+            background-color:rgb(216, 184, 0);
             padding: 10px;
             border-radius: 4px;
             font-weight: 900;
@@ -266,7 +266,7 @@ color: #f3e77c;
 
 .box{
    
-    background-color: rgba(255,115,0,1);
+    background-color: rgb(216, 184, 0);
     padding: 1px;
     border-radius: 4px;
     font-weight: 900;
