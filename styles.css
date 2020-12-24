@@ -126,6 +126,10 @@ h1 {
 
 }
 
+.narrow{
+    width: 30vw;
+}
+
 .portfolio:hover{
     width: 65vw;
     transition: 0.5s;
