@@ -7,8 +7,10 @@ body {
   p {
     font-family: "Lexend Deca", sans-serif;
     color:  rgb(211, 211, 211);
+    font-size: .8em;
 
   }
+
   a {
     color: black;
     font-family: "Lexend Deca", sans-serif;
@@ -47,6 +49,7 @@ h1 {
 h2{
     color: rgb(216, 184, 0);
     font-family: "Rubik Mono One", sans-serif;
+    font-weight: 200;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -99,7 +102,7 @@ h6{
 
 .bio{
 
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 0px;
 }
 .headbox{
@@ -393,8 +396,15 @@ color: #f3e77c;
         h3{
 
             font-size: 1.5rem;
+        
         }
+
+        p{
+
+            font-size: .7em;
         }
+
+    }
 
 @media only screen and (max-width: 600px) {
 
@@ -428,6 +438,17 @@ color: #f3e77c;
                 float: none;
                 margin: auto;
                     }
-            }
+        
 
-            
+    p{
+
+        font-size: .6em;
+    }
+
+    .bio{
+
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+}
