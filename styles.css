@@ -61,7 +61,7 @@ h2{
 h3 {
     color:rgb(179, 179, 179);	
     font-family: "Lexend Deca", sans-serif;
-    text-indent: 25vw;
+    text-indent: 10vw;
     font-weight: 200;
     font-size: 1.5rem;
     text-align: left;
@@ -130,6 +130,41 @@ h6{
   
 
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
 .hide {
             display: none;
 
@@ -141,22 +176,28 @@ h6{
           }
 
 .portfolio{
-    width:50vw;
+    width:22vw;
     height:auto;
     margin: 10px;
-    transition: 0.3s;
+    transition: 0.2s;
 
 }
 
 .narrow{
-    width: 30vw;
+    width: 20vw;
+}
+
+.wide{
+    width: 50vw;
 }
 
 .portfolio:hover{
-    width: 65vw;
-    transition: 0.5s;
+    width: 40vw;
+    transition: 0.2s;
 
-}
+} 
+
+
 .topnav {
     overflow: hidden;
     font-family: "Lexend Deca", sans-serif;
@@ -345,32 +386,7 @@ color: #f3e77c;
 
 
 
-@media only screen and (max-width: 1000px) {
 
-    .huge{
-        font-size: 4rem;
-
-    
-    }
-
-    .giant{
-
-        font-size: 6rem;
-    }
-
-    h1 {
-       
-        font-size: 3rem;
-
-    }
-
-
-    h3 {
-        
-        font-size: 2.25rem;
-    }
-    
-}
 
 @media only screen and (max-width: 800px) {
 
@@ -403,6 +419,46 @@ color: #f3e77c;
 
             font-size: .7em;
         }
+
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 10px;
+          }
+          .grid-item {
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+          }
+        
+        
+        
+        
+        
+    
+        
+        .portfolio{
+            width:35vw;
+            height:auto;
+            margin: 10px;
+            transition: 0.3s;
+        
+        }
+        
+        .narrow{
+            width: 25vw;
+        }
+        
+        .wide{
+            width: 60vw;
+        }
+        
+        .portfolio:hover{
+            width: 50vw;
+            transition: 0.5s;
+        
+        } 
 
     }
 
@@ -450,5 +506,54 @@ color: #f3e77c;
         padding-top: 10px;
         padding-bottom: 0px;
     }
+
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+      }
+
+      .grid-container2 {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+      }
+      .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+    
+    
+    
+    
+    
+
+    
+    .portfolio{
+        width:50vw;
+        height:auto;
+        margin: 10px;
+        transition: 0.3s;
+    
+    }
+    
+    .narrow{
+        width: 30vw;
+    }
+    
+    .wide{
+        width: 60vw;
+    }
+    
+    .portfolio:hover{
+        width: 65vw;
+        transition: 0.5s;
+    
+    } 
+
+
 
 }
