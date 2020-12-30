@@ -61,10 +61,11 @@ h2{
 h3 {
     color:rgb(179, 179, 179);	
     font-family: "Lexend Deca", sans-serif;
-    text-indent: 10vw;
     font-weight: 200;
     font-size: 1.5rem;
     text-align: left;
+    margin-bottom: 50px;
+    text-align: center;
     
     
     
@@ -110,7 +111,8 @@ h6{
     width: 300px;
     height: 7px;
     margin: 0 auto;
-    border-radius: .3rem;
+    margin-bottom: 40px;
+    border-radius: 5px;
 }
 
 .paddingbox{
@@ -127,10 +129,18 @@ h6{
     margin-bottom: 50px;
     padding-bottom: 100px;
     width: 100vw;
-  
 
 }
 
+
+.portfolioheadbox{
+
+
+    background-color: #696969;
+    margin: auto;
+    width: 100vw;
+
+}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -471,7 +481,7 @@ color: #f3e77c;
     }
 
     .headbox{
-        width: 80px;
+        width: 90px;
         height: 3px;
     }
     .main-logo{
@@ -480,7 +490,7 @@ color: #f3e77c;
             }
     h2 {
            
-        font-size: .8rem;
+        font-size: .9rem;
         letter-spacing: 6px;
             }
     
