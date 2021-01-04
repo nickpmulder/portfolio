@@ -64,7 +64,6 @@ h3 {
     font-weight: 200;
     font-size: 1.5rem;
     text-align: left;
-    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     letter-spacing: 10px;
@@ -94,6 +93,12 @@ h6{
 
     }
 
+.paragraph-div{
+    width: 60vw;
+    padding: 20px;
+    margin: 20px;
+}
+
 .linkbutton{color: black;
     font-family: "Lexend Deca", sans-serif;
     display: inline-block;
@@ -122,11 +127,6 @@ h6{
 .paddingbox{
 
     padding: 40px;
-}
-
-.shape{
-    width: 300px;
-    margin-bottom: 20px;
 }
 
 .portfoliobox{
@@ -294,47 +294,6 @@ h6{
     width: 60vw;
 }
 
-.big{
-
-    font-size: 2rem;
-    color: rgb(44, 204, 44);
-    line-height: 1;
-}
-.huge{
-    font-family: "Lexend Deca", sans-serif;
-    font-size: 5rem;
-    text-align: left;
-    position:relative;
-    margin-top: 200px;
-    line-height: 0;
-
-}
-
-.yellow{
-color: #f3e77c;	
-
-}
-
-.white{
-    color: white;
-}
-
-.green{
-    color: chartreuse
-}
-
-.red{
-
-    color: rgb(255, 60, 0)
-}
-
-.purple{
-    color:#e57cf3;
-}
-
-.orange{
-    color: rgb(255, 115, 0);
-}
 
 
 .giant{
@@ -387,17 +346,7 @@ color: #f3e77c;
     justify-content: space-evenly;
 
   }
-    .one {
-        
-    }
-    .two { 
-        
 
-    }
-    .three {
-        
-
-    }
 
 
 
