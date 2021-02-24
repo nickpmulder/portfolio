@@ -422,11 +422,18 @@ h6{
             width: 60vw;
         }
         
+        .wide:hover{
+            width: 70vw !important;
+            transition: 0.5s;
+        }
+
         .portfolio:hover{
             width: 50vw;
             transition: 0.5s;
         
         } 
+
+
 
     }
 
